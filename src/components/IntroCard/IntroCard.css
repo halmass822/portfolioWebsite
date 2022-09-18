@@ -1,0 +1,48 @@
+.intro {
+    display: inline-flex;
+    align-items: center;
+    background-color: grey;
+    padding: 0.75rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+
+.introLogo {
+    height: 10.33rem;
+    width: auto;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 1rem;
+    padding: 0.75rem;
+    margin: 0.5rem;
+}
+
+.body {
+    display: inline-flex;
+    flex-flow: column;
+    border: 3px solid black;
+    border-radius: 1rem;
+    padding: 0.75rem;
+    margin: 0.5rem;
+    background-color: white;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.introLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.body h2 {
+    display: flex;
+    margin: 0.66rem 0;
+    align-items: center;
+}
+
+.body img {
+    width: 2.33rem;
+    height: auto;
+    padding-right: 0.33rem;
+}
