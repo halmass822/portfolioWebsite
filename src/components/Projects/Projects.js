@@ -23,7 +23,7 @@ export function Projects() {
                     <span> | </span> 
                     <a href="https://grand-twilight-778696.netlify.app/"  target="_blank" rel='noreferrer'>deploy</a>
                 </h2>
-                <img src={tafappimg} alt="tafapp screenshot"></img>
+                <img src={tafappimg} alt="tafapp screenshot" className="projectImg"></img>
                 <h2 className="lessonsLearned">Lessons learned:</h2>
                 <ul>
                     <li>Writing clear project documentation</li>

@@ -46,3 +46,27 @@
     height: auto;
     padding-right: 0.33rem;
 }
+
+.linksLogo {
+    width: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.linksCard h2 {
+    margin: 0.5rem 0;
+    font-size: 1.25rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+.linksCard {
+    display: inline-flex;
+    flex-flow: column;
+    border: 3px solid black;
+    border-radius: 1rem;
+    padding: 0.925rem;
+    margin: 0.5rem;
+    background-color: white;
+    overflow: hidden;
+    white-space: nowrap;
+}

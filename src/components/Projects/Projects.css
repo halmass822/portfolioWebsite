@@ -15,3 +15,7 @@
 .project ul {
     align-self: flex-start;
 }
+
+.projectImg {
+    margin: 0.5rem;
+}
