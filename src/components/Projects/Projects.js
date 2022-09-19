@@ -10,7 +10,7 @@ export function Projects() {
                 <h2 className="projectHeader">React Minesweeper | <a href="https://github.com/halmass822/reactminesweeper" target="_blank" rel='noreferrer'>source</a></h2>
                 <Minesweeper resizeable={true}/>
                 <h2 className="lessonsLearned">Lessons learned:</h2>
-                <ul>
+                <ul style={{width: "22rem"}}>
                     <li>Managing state as an array</li>
                     <li>Generating components using array.map</li>
                     <li>Writing clean useEffect and useState methods to avoid rendering errors</li>
@@ -18,10 +18,10 @@ export function Projects() {
             </div>
             <div className="project">
                 <h2 className="projectHeader">ATC weather app
+                    <span> | </span> 
+                    <a href="https://grand-twilight-778696.netlify.app/"  target="_blank" rel='noreferrer'>view</a>
                     <span> | </span>
                     <a href="https://github.com/halmass822/reactminesweeper" target="_blank" rel='noreferrer'>source</a>
-                    <span> | </span> 
-                    <a href="https://grand-twilight-778696.netlify.app/"  target="_blank" rel='noreferrer'>deploy</a>
                 </h2>
                 <img src={tafappimg} alt="tafapp screenshot" className="projectImg"></img>
                 <h2 className="lessonsLearned">Lessons learned:</h2>

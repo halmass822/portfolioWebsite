@@ -23,16 +23,16 @@ export function IntroCard() {
                 <h2><img src={warningLogo} alt="red warning logo"></img>Experienced React State Discombobulator</h2>
                 </div>
             <div className="linksCard">
-                <a href="https://github.com/halmass822" target="_blank" rel='noreferrer' className="personalLink">
+                <a href="https://github.com/halmass822" target="_blank" rel='noreferrer' className="personalLink1">
                     <h2><img src={githubimg} alt="github logo" className="linksLogo"></img>My github</h2>
                     </a>
-                <a href="mailto:halmassri822" target="_blank" rel='noreferrer' className="personalLink">
+                <a href="mailto:halmassri822@gmail.com" target="_blank" rel='noreferrer' className="personalLink2">
                     <h2><img src={mailimg} alt="mail logo" className="linksLogo"></img>Contact me</h2>
                     </a>
-                <a href="https://github.com/halmass822/portfolioWebsite" target="_blank" rel='noreferrer' className="personalLink">
+                <a href="https://github.com/halmass822/portfolioWebsite" target="_blank" rel='noreferrer' className="personalLink3">
                     <h2><img src={tagimg} alt="html tag logo" className="linksLogo"></img>Page source</h2>
                     </a>
-                <a href="https://www.ivegotyourback911.com/pages/about" target="_blank" rel='noreferrer' className="personalLink">
+                <a href="https://www.ivegotyourback911.com/pages/about" target="_blank" rel='noreferrer' className="personalLink4">
                     <h2><img src={igyb} alt="igyb911 logo" className="linksLogo"></img>#IGYB911</h2>
                     </a>
         </div>
