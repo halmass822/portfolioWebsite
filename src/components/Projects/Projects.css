@@ -1,3 +1,14 @@
+.projectsSection {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.additionalProjectInfo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 .project {
     display: inline-flex;
     flex-flow: column;
@@ -15,6 +26,7 @@
 
 .project ul {
     align-self: flex-start;
+    justify-self: flex-end;
 }
 
 .projectImg {

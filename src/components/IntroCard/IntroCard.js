@@ -20,7 +20,7 @@ export function IntroCard() {
                     <h2><img src={headset} alt="headset logo"></img>911 Operator</h2>
                     <h2><img src={tagimg} alt="front end logo"></img>Frontend Dev Hopeful</h2>
                     </div>
-                <h2><img src={warningLogo} alt="red warning logo"></img>Experienced React State Discombobulator</h2>
+                <h2><img src={warningLogo} alt="red warning logo" style={{width: "1.5rem"}}></img>Experienced React State Discombobulator</h2>
                 </div>
             <div className="linksCard">
                 <a href="https://github.com/halmass822" target="_blank" rel='noreferrer' className="personalLink1">
