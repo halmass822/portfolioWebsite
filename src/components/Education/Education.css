@@ -1,0 +1,35 @@
+.educationimg {
+    width: 5rem;
+    height: auto;
+}
+
+.cctextbody {
+    width: 66%;
+}
+
+.ccimages {
+    width: 10rem;
+}
+
+.educationComponent {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-image: url("./designpatternsblur.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ccfullstack {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cclogo {
+    width: 10rem;
+    height: auto;
+}

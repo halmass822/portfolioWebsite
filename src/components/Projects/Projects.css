@@ -1,12 +1,31 @@
+.projectsComponent {
+    display: inline-flex;
+    margin: 1rem;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./codeblur.png);
+    border-radius: 2rem;
+    padding: 0 2rem 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.projectsHeader {
+    color: white;
+}
+
 .projectsSection {
     display: flex;
     align-items: stretch;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .additionalProjectInfo {
     font-size: 1.5rem;
     font-weight: bold;
+    margin: 0;
 }
 
 .project {
@@ -17,7 +36,7 @@
     border-radius: 1rem;
     margin: 0.5rem;
     border: 3px solid black;
-    background-color: #ffffffc7;
+    background-color: #ffffffa1;
 }
 
 .project h2 {
@@ -31,4 +50,10 @@
 
 .projectImg {
     margin: 0.5rem;
+}
+
+.projectsTextBlock {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
 }
