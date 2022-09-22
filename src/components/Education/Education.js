@@ -73,8 +73,8 @@ export function Education() {
                                 <img alt="igyb911 logo" src={igybimg} className="educationimg"></img>
                             </div>
                             <div className="logosRow">
-                                <img alt="minesweeper click face image" src={minesweeperfaceimg1} className="educationimg"></img>
-                                <img alt="minesweeper game over face image" src={minesweeperfaceimg2} className="educationimg"></img>
+                                <img alt="minesweeper click face" src={minesweeperfaceimg1} className="educationimg"></img>
+                                <img alt="minesweeper game over face" src={minesweeperfaceimg2} className="educationimg"></img>
                             </div>
                     </div>
                 </div>
@@ -89,7 +89,7 @@ export function Education() {
                         <p>It was also here that I learned about what could be possible with programming outside the confines of excel. What visuals I could create without being limited to cells and a single z-index, as well as alternative data integration methods such as web scraping. The valuable lessons I was taught during my Excel courses are still being applied to this day</p>
                     </div>
                     <div className="section3">
-                        <img alt="excel pie chart blurred image" src={piechartimg} className="fullsizeLogo"></img>
+                        <img alt="excel pie chart blurred" src={piechartimg} className="fullsizeLogo"></img>
                     </div>
                 </div>
 
