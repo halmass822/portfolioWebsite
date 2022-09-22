@@ -1,6 +1,14 @@
+.educationSection {
+    background-color: #ffffffa1;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+
 .educationimg {
     width: 5rem;
     height: auto;
+    margin: 0.2rem;
 }
 
 .cctextbody {
@@ -8,14 +16,19 @@
 }
 
 .ccimages {
-    width: 10rem;
+    width: 11rem;
+    height: 11rem;
 }
 
 .educationComponent {
+    margin: 1rem;
+    padding: 0 2rem 2rem;
+    border-radius: 2rem;
+    width: 90%;
     display: flex;
     flex-flow: column;
     align-items: center;
-    background-image: url("./designpatternsblur.jpg");
+    background-image: url("./stackoverflowblur.png");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,4 +45,15 @@
 .cclogo {
     width: 10rem;
     height: auto;
+}
+
+.skillsSection {
+    display: inline-flex;
+    align-items: center;
+}
+
+.skillsimg {
+    width: 5rem;
+    height: auto;
+    margin: 0.2rem;
 }
