@@ -1,25 +1,3 @@
-.educationSection {
-    background-color: #ffffffa1;
-    padding: 2rem;
-    margin: 1rem;
-    border-radius: 2rem;
-}
-
-.educationimg {
-    width: 5rem;
-    height: auto;
-    margin: 0.2rem;
-}
-
-.cctextbody {
-    width: 66%;
-}
-
-.ccimages {
-    width: 11rem;
-    height: 11rem;
-}
-
 .educationComponent {
     margin: 1rem;
     padding: 0 2rem 2rem;
@@ -28,18 +6,39 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    background-image: url("./stackoverflowblur.png");
+    background-image: url("./images/stackoverflowblur.png");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.ccfullstack {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+.educationSection {
+    display: inline-flex;
     align-items: center;
+}
+
+.educationList {
+    background-color: #ffffffa1;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+
+.section2 {
+    margin: 0 1rem;
+}
+
+.educationimg {
+    width: 5rem;
+    height: auto;
+    margin: 0.2rem;
+}
+
+.s3images {
+    width: 11rem;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .cclogo {
@@ -47,13 +46,24 @@
     height: auto;
 }
 
-.skillsSection {
-    display: inline-flex;
+.logosRow {
+    display: flex;
     align-items: center;
 }
 
-.skillsimg {
+.programLogos {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.programLogos img {
     width: 5rem;
     height: auto;
-    margin: 0.2rem;
+}
+
+.fullsizeLogo {
+    width: 11rem;
+    height: auto;
 }

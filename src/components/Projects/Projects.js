@@ -28,7 +28,7 @@ export function Projects() {
                         <a href="https://github.com/halmass822/reactminesweeper" target="_blank" rel='noreferrer'>source</a>
                     </h2>
                     <img src={tafappimg} alt="tafapp screenshot" className="projectImg"></img>
-                    <div clasName="projectsTextBlock">
+                    <div className="projectsTextBlock">
                         <h2 className="lessonsLearned">Lessons learned:</h2>
                         <ul>
                             <li>Writing clear project documentation</li>
