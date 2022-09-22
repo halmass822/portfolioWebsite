@@ -9,6 +9,9 @@ function Portfolio() {
       <IntroCard />
       <Projects />
       <Education />
+      <div className="contactMe">
+          <h2>Thank you for visting my portfolio.&#160;<span><a href='mailto:halmassri822@gmail.com?subject="Porfolio feedback"'>Please send me an email</a>&#160;and let me know what you think!</span> </h2>
+        </div>
     </div>
   );
 }

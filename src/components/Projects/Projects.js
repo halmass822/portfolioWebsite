@@ -8,8 +8,8 @@ export function Projects() {
     return (
         <div className="projectsComponent">
             <h1 className="projectsHeader">Projects</h1>
-            <div className="projectsSection">
-                <div className="project">
+            <div className="allProjects">
+                <div className="project shadowAnimate">
                     <div className="projectSection">
                         <h2 className="projectTitle">React Minesweeper | <a href="https://github.com/halmass822/reactminesweeper" target="_blank" rel='noreferrer'>source</a></h2>
                     </div>
@@ -26,7 +26,7 @@ export function Projects() {
                         </ul>
                     </div>
                 </div>
-                <div className="project">
+                <div className="project shadowAnimate">
                     <div className="projectSection">
                         <h2 className="projectTitle">ATC weather app
                             <span> | </span> 
@@ -49,7 +49,7 @@ export function Projects() {
                         </ul>
                     </div>
                 </div>
-                <div className="project">
+                <div className="project shadowAnimate">
                     <div className="projectSection">
                         <h2 className="projectTitle">React Snake (Work in progress)
                             <br></br>
@@ -72,12 +72,7 @@ export function Projects() {
                             <li>How to use non-primitive data as a useEffect dependency</li>
                         </ul>
                     </div>
-
-
-
-
                 </div>
-
             </div>
         </div>
     )

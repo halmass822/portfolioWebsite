@@ -10,10 +10,10 @@ import "./IntroCard.css";
 export function IntroCard() {
     return(
         <div className="intro">
-            <div className="introLogoContainer">
+            <div className="introLogoContainer introSection">
                 <img src={igyb} alt="#igyb911 logo" className="introLogo"></img>
             </div>
-            <div className="body">
+            <div className="body introSection">
                 <div className="introLine">
                     <h2 className="myName">Hazem Al Massri</h2>
                     <h2><img src={canadianFlag} alt="canadian flag"></img>Canada based</h2>
@@ -24,7 +24,7 @@ export function IntroCard() {
                     </div>
                 <h2><img src={warningLogo} alt="red warning logo" style={{width: "1.5rem"}}></img>Experienced React State Discombobulator</h2>
                 </div>
-            <div className="linksCard">
+            <div className="linksCard introSection">
                 <a href="https://github.com/halmass822" target="_blank" rel='noreferrer' className="personalLink1">
                     <h2><img src={githubimg} alt="github logo" className="linksLogo"></img>My github</h2>
                     </a>
