@@ -10,7 +10,9 @@ import "./IntroCard.css";
 export function IntroCard() {
     return(
         <div className="intro">
-            <a href="https://www.ivegotyourback911.com/pages/about" target="_blank" rel='noreferrer'><img src={igyb} alt="#igyb911 logo" className="introLogo"></img></a>
+            <div className="introLogoContainer">
+                <img src={igyb} alt="#igyb911 logo" className="introLogo"></img>
+            </div>
             <div className="body">
                 <div className="introLine">
                     <h2 className="myName">Hazem Al Massri</h2>
@@ -35,7 +37,7 @@ export function IntroCard() {
                 <a href="https://www.ivegotyourback911.com/pages/about" target="_blank" rel='noreferrer' className="personalLink4">
                     <h2><img src={igyb} alt="igyb911 logo" className="linksLogo"></img>#IGYB911</h2>
                     </a>
-        </div>
+            </div>
         </div>
     )
 }

@@ -16,15 +16,24 @@
     color: white;
 }
 
-.projectsSection {
+.projectTitle {
+    text-align: center;
+}
+
+.descriptionSection {
+    width: 25rem;
+}
+
+.projectSection {
     display: flex;
-    align-items: stretch;
+    flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0.5rem 0;
 }
 
 .additionalProjectInfo {
-    font-size: 1.5rem;
     font-weight: bold;
     margin: 0;
 }
@@ -33,6 +42,7 @@
     display: inline-flex;
     flex-flow: column;
     align-items: center;
+    justify-content: space-between;
     padding: 0.75rem;
     border-radius: 1rem;
     margin: 0.5rem;

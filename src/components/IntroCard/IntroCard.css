@@ -1,23 +1,28 @@
 .intro {
     display: inline-flex;
-    align-items: center;
+    align-items: stretch;
     background-color: #d1f8f9a6;
     padding: 0.5rem;
     border-radius: 1rem;
     margin: 0.5rem;
 }
 
-.body, .linksCard, .introLogo {
-    margin: 0.25rem 0.4rem !important
+.introLogoContainer, .body, .linksCard {
+    margin: 0.5rem;
 }
 
-.introLogo {
-    height: 10.33rem;
-    width: auto;
+.introLogoContainer {
+    display: flex;
+    align-items: center;
     background-color: white;
     border: 3px solid black;
     border-radius: 1rem;
     padding: 0.75rem;
+}
+
+.introLogo {
+    height: 9rem;
+    width: auto;
 }
 
 .body {
@@ -52,9 +57,10 @@
 .linksCard {
     display: inline-flex;
     flex-flow: column;
+    justify-content: center;
     border: 3px solid black;
     border-radius: 1rem;
-    padding: 0.925rem 0.25rem;
+    padding: 0 0.25rem;
     background-color: white;
     overflow: hidden;
     white-space: nowrap;
