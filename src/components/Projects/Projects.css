@@ -21,7 +21,10 @@
 }
 
 .descriptionSection {
-    width: 25rem;
+    width: 30rem;
+    background-color: #ffffff8c;
+    padding: 0.5rem;
+    border-radius: 1rem;
 }
 
 .allProjects {
@@ -35,7 +38,7 @@
 .projectSection {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     margin: 1rem 0;
@@ -45,6 +48,7 @@
     text-align: center;
     font-weight: bold;
     margin: 0;
+    width: 25rem;
 }
 
 .lessonsLearned {

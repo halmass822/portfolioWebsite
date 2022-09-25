@@ -86,7 +86,7 @@ export function Education() {
                     <div className="section2">
                         <h2>Intermediate Spreadsheeting</h2>
                         <p>My programming journey started with Excel, building a metrics calculator and forecaster for my team. It was then that I learned about the critical role a user interface provides, allowing inexperienced users to perform extremely powerful calculations and simplify the use of complex programs. The spreadsheet I designed recognized different user inputs (i.e whether a user entered a badge or agent number) and visually led the user to the appropriate input fields.</p>
-                        <p>It was also here that I learned about what could be possible with programming outside the confines of excel. What visuals I could create without being limited to cells and a single z-index, as well as alternative data integration methods such as web scraping. The valuable lessons I was taught during my Excel courses are still being applied to this day</p>
+                        <p>It was also here that I learned about what could be possible with programming outside the confines of excel. What visuals I could create without being limited to cells and a single z-index, as well as alternative data integration methods such as web scraping. The lessons I was taught in my Excel courses remain very relevant to learning programming</p>
                     </div>
                     <div className="section3">
                         <img alt="excel pie chart blurred" src={piechartimg} className="fullsizeLogo"></img>

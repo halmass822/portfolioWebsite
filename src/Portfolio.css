@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("./low-poly-background-2-1.jpg");
+    background-image: url("./greyscalesplash.png");
     height: 100%;
     width: auto;
     background-position: center;
@@ -16,7 +16,7 @@ header {
 }
 
 .contactMe {
-    padding: 0.75rem;
+    padding: 0.5rem 1.5rem;
     border-radius: 1rem;
     margin: 0.5rem;
     background-color: #ffffffa1;
