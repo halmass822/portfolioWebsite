@@ -2,10 +2,29 @@ import "./Portfolio.css";
 import { IntroCard } from "./components/IntroCard/IntroCard.js";
 import { Projects } from "./components/Projects/Projects.js";
 import { Education } from "./components/Education/Education";
+import { useEffect,useState } from "react";
+import { LinksHeader } from "./components/IntroCard/LinksHeader";
 
 function Portfolio() {
+
+  const [scrolledDown, setscrolledDown] = useState(false);
+
+  const handleWindowScroll = () => {
+    if(window.scrollY >= 250) {
+      setscrolledDown(true);
+    } else {
+      setscrolledDown(false);
+    }
+  }
+
+  useEffect(()=> {
+    window.addEventListener("scroll", handleWindowScroll);
+    return () => window.removeEventListener("scroll", handleWindowScroll);
+  }, [])
+
   return (
     <div className="portfolio">
+      <LinksHeader scrolledDown={scrolledDown}/>
       <IntroCard />
       <Projects />
       <Education />

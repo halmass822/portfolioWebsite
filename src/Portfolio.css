@@ -10,11 +10,6 @@
     background-size: cover;
 }
 
-header {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
 .contactMe {
     padding: 0.5rem 1.5rem;
     border-radius: 1rem;

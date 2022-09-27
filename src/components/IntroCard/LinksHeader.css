@@ -1,0 +1,40 @@
+.linksHeader {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headerLinks {
+    background-color: rgba(255, 255, 255, 0.716);
+    padding: 0.5rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    transition: top 200ms ease;
+    margin: 0 2rem;
+}
+
+.headerLinks div {
+    width: 1.75rem;
+    height: 1.75rem;
+    padding: 0.2rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.25s;
+}
+
+.headersLogo {
+    width: 100%;
+    height: auto;
+}
+
+.visible {
+    top: 0;
+}
+
+.hidden {
+    top: -50px;
+}

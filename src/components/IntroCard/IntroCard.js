@@ -24,19 +24,24 @@ export function IntroCard() {
                     </div>
                 <h2><img src={warningLogo} alt="red warning logo" style={{width: "1.5rem"}}></img>Experienced React State Discombobulator</h2>
                 </div>
+
             <div className="linksCard introSection">
-                <a href="https://github.com/halmass822" target="_blank" rel='noreferrer' className="personalLink1">
-                    <h2><img src={githubimg} alt="github logo" className="linksLogo"></img>My github</h2>
-                    </a>
-                <a href="mailto:halmassri822@gmail.com" target="_blank" rel='noreferrer' className="personalLink2">
-                    <h2><img src={mailimg} alt="mail logo" className="linksLogo"></img>Contact me</h2>
-                    </a>
-                <a href="https://github.com/halmass822/portfolioWebsite" target="_blank" rel='noreferrer' className="personalLink3">
-                    <h2><img src={tagimg} alt="html tag logo" className="linksLogo"></img>Page source</h2>
-                    </a>
-                <a href="https://www.ivegotyourback911.com/pages/about" target="_blank" rel='noreferrer' className="personalLink4">
-                    <h2><img src={igyb} alt="igyb911 logo" className="linksLogo"></img>#IGYB911</h2>
-                    </a>
+                <div className="personalLink1">
+                    <img src={githubimg} alt="github logo" className="linksLogo"></img>
+                    <a href="https://github.com/halmass822" target="_blank" rel='noreferrer'>My Github</a>
+                </div>
+                <div className="personalLink2">
+                    <img src={mailimg} alt="mail logo" className="linksLogo"></img>
+                    <a href="mailto:halmassri822@gmail.com" target="_blank" rel='noreferrer'>Contact me</a>
+                </div>
+                <div className="personalLink3">
+                    <img src={tagimg} alt="html tag logo" className="linksLogo"></img>
+                    <a href="https://github.com/halmass822/portfolioWebsite" target="_blank" rel='noreferrer'>Page source</a>
+                </div>
+                <div className="personalLink4">
+                    <img src={igyb} alt="igyb911 logo" className="linksLogo"></img>
+                    <a href="https://www.ivegotyourback911.com/pages/about" target="_blank" rel='noreferrer'>#IGYB911</a>
+                </div>
             </div>
         </div>
     )

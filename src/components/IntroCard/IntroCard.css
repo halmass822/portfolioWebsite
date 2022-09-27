@@ -82,20 +82,22 @@
     margin-right: 0.5rem;
 }
 
-.linksCard h2 {
-    margin: 0.5rem 0;
+.linksCard div {
+    margin: 0;
     font-size: 1.25rem;
     display: inline-flex;
     align-items: center;
     text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+    transition: background-color 0.25s;
 }
 
-.linksCard a {
+.linksCard div a {
     text-decoration: none;
     color: black;
-    padding: 0 0.5rem;
     border-radius: 0.75rem;
-    transition: background-color 0.2s;
+    font-weight: bold;
 }
 
 .personalLink1:hover {
@@ -103,7 +105,7 @@
 }
 
 .personalLink2:hover {
-    background-color: #dcff003d;
+    background-color: #ddff005c;
 }
 
 .personalLink3:hover {
