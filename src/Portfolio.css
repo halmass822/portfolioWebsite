@@ -13,6 +13,11 @@
 .contactMe {
     padding: 0.5rem 1.5rem;
     border-radius: 1rem;
-    margin: 0.5rem;
+    margin: 1rem;
+    max-width: 90%;
     background-color: #ffffffa1;
+}
+
+.contactMe h2 {
+    text-align: center;
 }

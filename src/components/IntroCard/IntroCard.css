@@ -115,3 +115,15 @@
 .personalLink4:hover {
     background-color: #ee00ff24;
 }
+
+@media only screen and (max-width: 1060px) {
+    .introLogoContainer {
+        display: none;
+    }    
+}
+
+@media only screen and (max-width: 770px) {
+    .linksCard {
+        display: none;
+    }
+}
