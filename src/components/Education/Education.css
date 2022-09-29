@@ -14,7 +14,7 @@
 
 .educationSection {
     display: inline-flex;
-    align-items: center;
+    align-items: stretch;
 }
 
 .educationList {
@@ -41,11 +41,6 @@
     flex-direction: column;
 }
 
-.cclogo {
-    width: 10rem;
-    height: auto;
-}
-
 .logosRow {
     display: flex;
     align-items: center;
@@ -68,8 +63,41 @@
     height: auto;
 }
 
+.section1 {
+    display: flex;
+    align-items: center;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section3 .fullsizeLogo, .section3 .programLogos {
+    margin: 1rem;
+}
+
+.section3 .programLogos {
+    flex-direction: row;
+    margin: 0;
+}
+
+.section3 .fullsizeLogo {
+    width: 9rem;
+}
+
+.mobileResponse {
+    display: none;
+}
+
 @media only screen and (max-width: 1060px) {
     .section1 {
         display: none;
+    }
+
+    .mobileResponse {
+        display: flex;
     }
 }

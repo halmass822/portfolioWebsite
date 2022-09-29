@@ -21,7 +21,7 @@ export function Education() {
             <div className="educationList">
                 <div className="educationSection">
                     <div className="section1">
-                        <img alt="codecademy logo" src={ccimg} className="cclogo"></img>
+                        <img alt="codecademy logo" src={ccimg} className="fullsizeLogo"></img>
                     </div>
                     <div className="section2">
                             <h2>Codecademy.com Full Stack Engineer (ongoing)</h2>
@@ -30,7 +30,7 @@ export function Education() {
                             <p>Although my focus is to be a front-end dev, I believe the knowledge offered by this course will help me increase my proficiency and adaptability as a front end developer</p>
                     </div>
                     <div className="section3">
-                        <img alt="codecademy logo" src={ccimg} className="cclogo"></img>
+                        <img alt="codecademy logo" src={ccimg} className="fullsizeLogo mobileResponse"></img>
                         <div className="s3images">
                             <div className="logosRow">
                                 <img alt="postgreslogo" src={postgresimg} className="educationimg"></img>
@@ -53,7 +53,7 @@ export function Education() {
                         <p>In a 911 communications / police dispatch center, clear and quick communication is often the difference between life and death. Getting information from and speaking clearly to clients and officers is of paramount importance, as well as communicating with your teammates through written and verbal forms. Having spent an entire career in communications in some form or another including as an Air Traffic Control trainee (laid off due to Covid) my verbal and written communication skills are second to none. I always have my team's back and they have mine, and you can expect the same loyalty and dedication should you hire me for your team</p>
                     </div>
                     <div className="section3">
-                        <img alt="communications operator logo" src={operatorimg} className="fullsizeLogo"></img>
+                        <img alt="communications operator logo" src={operatorimg} className="fullsizeLogo mobileResponse"></img>
                         <img alt="igyb911 logo" src={igybimg} className="fullsizeLogo"></img>
                     </div>
                 </div>
@@ -70,7 +70,7 @@ export function Education() {
                         <p>I have lots of experience editing simple images with paint.net and GIMP. The background image for this section and the one above are images edited by me as well as all the logos to the right. Should any advanced editing beyond simple blurring, cropping and background removal be required, I am more than willing to improve on my skills and get the job done</p>
                     </div>
                     <div className="section3">
-                        <div className="programLogos">
+                        <div className="programLogos mobileResponse">
                             <img alt="gimp logo" src={gimpimg} className="skillsimg"></img>
                             <img alt="paint.net logo" src={paintnetimg} className="skillsimg"></img>
                         </div>
@@ -95,7 +95,7 @@ export function Education() {
                         <p>It was also here that I learned about what could be possible with programming outside the confines of excel. What visuals I could create without being limited to cells and a single z-index, as well as alternative data integration methods such as web scraping. The lessons I was taught in my Excel courses remain very relevant to learning programming</p>
                     </div>
                     <div className="section3">
-                        {/* <img alt="excel logo" src={excelimg} className="fullsizeLogo"></img> */}
+                        <img alt="excel logo" src={excelimg} className="fullsizeLogo mobileResponse"></img>
                         <img alt="excel pie chart blurred" src={piechartimg} className="fullsizeLogo"></img>
                     </div>
                 </div>

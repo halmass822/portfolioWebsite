@@ -90,6 +90,7 @@
 
 .projectImg {
     margin: 0.5rem;
+    max-width: 90%;
 }
 
 .projectsTextBlock {
