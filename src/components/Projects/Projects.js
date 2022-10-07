@@ -34,7 +34,7 @@ export function Projects() {
                             <span> | </span> 
                             <a href="https://grand-twilight-778696.netlify.app/"  target="_blank" rel='noreferrer'>view</a>
                             <span> | </span>
-                            <a href="https://github.com/halmass822/reactminesweeper" target="_blank" rel='noreferrer'>source</a>
+                            <a href="https://github.com/halmass822/tafapp" target="_blank" rel='noreferrer'>source</a>
                         </h2>
                     </div>
                     <div className="projectSection">
@@ -75,7 +75,7 @@ export function Projects() {
                 </div>
                 <div className="project shadowAnimate">
                     <div className="projectSection">
-                        <h2 className="projectTitle">Mastermind Game |&#160;<a href="https://github.com/halmass822/reactminesweeper" target="_blank" rel='noreferrer'>source</a></h2>
+                        <h2 className="projectTitle">Mastermind Game |&#160;<a href="https://github.com/halmass822/Mastermind" target="_blank" rel='noreferrer'>source</a></h2>
                     </div>
                     <div className="projectSection">
                         <img src={mastermindimg} alt="snake screenshot" className="projectImg"></img>
