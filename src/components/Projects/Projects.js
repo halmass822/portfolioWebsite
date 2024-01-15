@@ -31,8 +31,6 @@ export function Projects() {
                 <div className="project shadowAnimate">
                     <div className="projectSection">
                         <h2 className="projectTitle">ATC weather app
-                            <span> | </span> 
-                            <a href="https://grand-twilight-778696.netlify.app/"  target="_blank" rel='noreferrer'>view</a>
                             <span> | </span>
                             <a href="https://github.com/halmass822/tafapp" target="_blank" rel='noreferrer'>source</a>
                         </h2>
