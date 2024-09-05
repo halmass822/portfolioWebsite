@@ -4,6 +4,9 @@ import tafappimg from "./tafapp.png";
 import snakeimg from "./snake.png";
 import mastermindimg from "./mastermind.png";
 import tetrisimg from "./tetris.png";
+import hcadimg from "./HCAD.png";
+import hcoimg from "./HCO.png";
+
 
 
 export function Projects() {
@@ -11,6 +14,40 @@ export function Projects() {
         <div className="projectsComponent">
             <h1 className="projectsHeader">Projects</h1>
             <div className="allProjects">
+                <div className="project shadowAnimate">
+                    <div className="projectSection">
+                        <h2 className="projectTitle">HCAD | <a href="https://github.com/halmass822/HCAD2" target="_blank" rel='noreferrer'>source</a></h2>
+                    </div>
+                    <div className="projectSection">
+                        <img src={hcadimg} alt="hcad screenshot" className="projectImg"></img>
+                        <p className="additionalProjectInfo">CAD web app in redux and react</p>
+                    </div>
+                    <div className="projectSection descriptionSection">
+                        <h2 className="lessonsLearned">Lessons learned:</h2>
+                        <ul>
+                            <li>Solidifying redux state management knowledge</li>
+                            <li>Compartmentalizing common functions, i.e timer parsing</li>
+                            <li>Managing CSS with redux for scrollable tables</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="project shadowAnimate">
+                    <div className="projectSection">
+                        <h2 className="projectTitle">HCO | <a href="https://github.com/halmass822/HCO" target="_blank" rel='noreferrer'>source</a></h2>
+                    </div>
+                    <div className="projectSection">
+                        <img src={hcoimg} alt="hco screenshot" className="projectImg"></img>
+                        <p className="additionalProjectInfo">Callout list manager for police resources</p>
+                    </div>
+                    <div className="projectSection descriptionSection">
+                        <h2 className="lessonsLearned">Lessons learned:</h2>
+                        <ul>
+                            <li>Solidifying browserrouter knowledge</li>
+                            <li>Managing efficient single page applications</li>
+                            <li>Solidfying table management as a React component</li>
+                        </ul>
+                    </div>
+                </div>
                 <div className="project shadowAnimate">
                     <div className="projectSection">
                         <h2 className="projectTitle">React Minesweeper | <a href="https://github.com/halmass822/reactminesweeper" target="_blank" rel='noreferrer'>source</a></h2>

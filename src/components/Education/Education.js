@@ -24,10 +24,10 @@ export function Education() {
                         <img alt="codecademy logo" src={ccimg} className="fullsizeLogo"></img>
                     </div>
                     <div className="section2">
-                            <h2>Codecademy.com Full Stack Engineer (ongoing)</h2>
-                            <p>I am currently halfway through the 6 month online course, currently wrapping up advanced React and beginning Redux. Before starting this course, I started with the C# course followed by javascript, asynchronous javascript, nodejs, express and sqlite</p> 
-                            <p>Although not a part of the program, I intend to learn Sass after Redux and fully solidify my knowledge of the front-end before moving on</p>
-                            <p>Although my focus is to be a front-end dev, I believe the knowledge offered by this course will help me increase my proficiency and adaptability as a front end developer</p>
+                            <h2>Codecademy.com Front End Engineer (ongoing)</h2>
+                            <p>Codecademy has been my favorite tool for learning to code as I can get feedback on my script right from the IDE</p> 
+                            <p>Starting with C# helped me learned to write clean code right from the start even though my focus turned to Javascript and React</p>
+                            <p>Although my focus is to be a front-end developer the course has fantastic NodeJS and ExpressJS modules that helped me round out my knowledge</p>
                     </div>
                     <div className="section3">
                         <img alt="codecademy logo" src={ccimg} className="fullsizeLogo mobileResponse"></img>
