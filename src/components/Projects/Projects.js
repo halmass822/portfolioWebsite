@@ -1,7 +1,6 @@
 import "./Projects.css";
 import { Minesweeper } from "./Minesweeper/Minesweeper.js";
 import tafappimg from "./tafapp.png";
-import snakeimg from "./snake.png";
 import mastermindimg from "./mastermind.png";
 import tetrisimg from "./tetris.png";
 import hcadimg from "./HCAD.png";
