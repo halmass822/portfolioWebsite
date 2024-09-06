@@ -16,7 +16,7 @@ export function Projects() {
             <div className="allProjects">
                 <div className="project shadowAnimate">
                     <div className="projectSection">
-                        <h2 className="projectTitle">HCAD | <a href="https://github.com/halmass822/HCAD2" target="_blank" rel='noreferrer'>source</a></h2>
+                        <h2 className="projectTitle">HCAD | <a href="https://hcad.netlify.app/" target="_blank" rel='noreferrer'>view</a> | <a href="https://github.com/halmass822/HCAD2" target="_blank" rel='noreferrer'>source</a></h2>
                     </div>
                     <div className="projectSection">
                         <img src={hcadimg} alt="hcad screenshot" className="projectImg"></img>
@@ -33,7 +33,7 @@ export function Projects() {
                 </div>
                 <div className="project shadowAnimate">
                     <div className="projectSection">
-                        <h2 className="projectTitle">HCO | <a href="https://github.com/halmass822/HCO" target="_blank" rel='noreferrer'>source</a></h2>
+                        <h2 className="projectTitle">HCO | <a href="https://hcallout.netlify.app/" target="_blank" rel='noreferrer'>view</a> | <a href="https://github.com/halmass822/HCO" target="_blank" rel='noreferrer'>source</a></h2>
                     </div>
                     <div className="projectSection">
                         <img src={hcoimg} alt="hco screenshot" className="projectImg"></img>
