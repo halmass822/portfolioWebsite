@@ -25,9 +25,7 @@ export function Education() {
                     </div>
                     <div className="section2">
                             <h2>Codecademy.com Front End Engineer (ongoing)</h2>
-                            <p>Codecademy has been my favorite tool for learning to code as I can get feedback on my script right from the IDE</p> 
-                            <p>Starting with C# helped me learned to write clean code right from the start even though my focus turned to Javascript and React</p>
-                            <p>Although my focus is to be a front-end developer the course has fantastic NodeJS and ExpressJS modules that helped me round out my knowledge</p>
+                            <p>Codecademy has been my favorite tool for learning to code as I can get feedback on my script right from their web-based IDE. Starting with C# helped me write clean code right from the start even though my focus turned to Javascript and React. After solidifying my understanding of the front end, I plan to start their .NET pathway in order to write better integrated applications. I never stop learning and Codecademy is the perfect tool due to their vast library of courses and topics available</p>
                     </div>
                     <div className="section3">
                         <img alt="codecademy logo" src={ccimg} className="fullsizeLogo mobileResponse"></img>
@@ -50,7 +48,7 @@ export function Education() {
                     </div>
                     <div className="section2">
                         <h2>Communication and collaboration</h2>
-                        <p>In a 911 communications / police dispatch center, clear and quick communication is often the difference between life and death. Getting information from and speaking clearly to clients and officers is of paramount importance, as well as communicating with your teammates through written and verbal forms. Having spent an entire career in communications in some form or another including as an Air Traffic Control trainee (laid off due to Covid) my verbal and written communication skills are second to none. I always have my team's back and they have mine, and you can expect the same loyalty and dedication should you hire me for your team</p>
+                        <p>In a 911 communications / police dispatch center, clear and quick communication is often the difference between life and death. Getting information from and speaking clearly to clients and officers is of paramount importance, as well as communicating with your teammates through written and verbal forms. Thanks to the amazing mentors and teachers I've had throughout my career I can clearly verbalize any issues or questions with my tasks and take the initiative to support my team.</p>
                     </div>
                     <div className="section3">
                         <img alt="communications operator logo" src={operatorimg} className="fullsizeLogo mobileResponse"></img>
@@ -66,8 +64,8 @@ export function Education() {
                         </div>
                     </div>
                     <div className="section2">
-                        <h2>Basic photo editing</h2>
-                        <p>I have lots of experience editing simple images with paint.net and GIMP. The background image for this section and the one above are images edited by me as well as all the logos to the right. Should any advanced editing beyond simple blurring, cropping and background removal be required, I am more than willing to improve on my skills and get the job done</p>
+                        <h2>Photo editing</h2>
+                        <p>In our increasingly visual world an understanding of graphic design and photo editing applications is integral to front end development. I have lots of experience editing images with paint.net and GIMP. I plan to dive further into 3D modelling once I have an established understanding of front end development to further improve my skills</p>
                     </div>
                     <div className="section3">
                         <div className="programLogos mobileResponse">
@@ -90,9 +88,9 @@ export function Education() {
                         <img alt="excel logo" src={excelimg} className="fullsizeLogo"></img>
                     </div>
                     <div className="section2">
-                        <h2>Intermediate Spreadsheeting</h2>
+                        <h2>Spreadsheeting</h2>
                         <p>My programming journey started with Excel, building a metrics calculator and forecaster for my team. It was then that I learned about the critical role a user interface provides, allowing inexperienced users to perform extremely powerful calculations and simplify the use of complex programs. The spreadsheet I designed recognized different user inputs (i.e whether a user entered a badge or agent number) and visually led the user to the appropriate input fields.</p>
-                        <p>It was also here that I learned about what could be possible with programming outside the confines of excel. What visuals I could create without being limited to cells and a single z-index, as well as alternative data integration methods such as web scraping. The lessons I was taught in my Excel courses remain very relevant to learning programming</p>
+                        <p>It was also here that I learned about what could be possible with programming outside the confines of excel. What visuals I could create without being limited to cells and a single z-index, as well as alternative data integration methods such as web scraping. The lessons I was taught in my Excel courses remain very relevant to programming and have been far and away the biggest boost to my career</p>
                     </div>
                     <div className="section3">
                         <img alt="excel logo" src={excelimg} className="fullsizeLogo mobileResponse"></img>
