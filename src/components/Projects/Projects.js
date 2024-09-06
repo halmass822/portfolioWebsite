@@ -125,30 +125,6 @@ export function Projects() {
                         </ul>
                     </div>
                 </div>
-                <div className="project shadowAnimate">
-                    <div className="projectSection">
-                        <h2 className="projectTitle">React Snake (Work in progress)
-                            <br></br>
-                            <a href="https://github.com/halmass822/reactsnake" target="_blank" rel='noreferrer'>source</a>
-                        </h2>
-                    </div>
-                    <div className="projectSection">
-                        <img src={snakeimg} alt="snake screenshot" className="projectImg"></img>
-                        <p className="additionalProjectInfo">Vanilla javascript version&#160;
-                            <a href="https://incredible-starship-bd6bac.netlify.app/" target="_blank" rel='noreferrer'>here</a>
-                            , source&#160;
-                            <a href="https://incredible-starship-bd6bac.netlify.app/" target="_blank" rel='noreferrer'>here</a>
-                        </p>
-                    </div>
-                    <div className="projectSection descriptionSection">
-                        <h2 className="lessonsLearned">Lessons learned so far:</h2>
-                        <ul>
-                            <li>A thorough understanding of component lifecycles and useEffect dependencies is required to use setInterval in React</li>
-                            <li>Better understanding of React devtools when using functional components</li>
-                            <li>How to use non-primitive data as a useEffect dependency</li>
-                        </ul>
-                    </div>
-                </div>
             </div>
         </div>
     )
